@@ -1,0 +1,33 @@
+{
+    "env": {
+        "node": true
+    },
+    "extends": ["eslint:recommended", "plugin:vue/vue3-essential", "plugin:prettier/recommended"],
+    "plugins": ["vue", "prettier"],
+    "rules": {
+        "prettier/prettier": [
+            "error",
+            {
+                "printWidth": 160,
+                "trailingComma": "es5",
+                "tabWidth": 4,
+                "useTabs": false,
+                "semi": false,
+                "singleQuote": true,
+                "quoteProps": "as-needed",
+                "jsxSingleQuote": true,
+                "bracketSpacing": true,
+                "jsxBracketSameLine": true,
+                "bracketSameLine": true,
+                "arrowParens": "always",
+                "requirePragma": false,
+                "insertPragma": false,
+                "proseWrap": "preserve",
+                "htmlWhitespaceSensitivity": "css",
+                "vueIndentScriptAndStyle": false,
+                "endOfLine": "lf",
+                "embeddedLanguageFormatting": "auto"
+            }
+        ]
+    }
+}
